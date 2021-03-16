@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+@import url url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+body {
+  background-color: #90D2DA;
+  text-align: center;
+}
+html {
+  scroll-behavior: smooth;
+}
+h1 {
+  font-family: vollkorn;
+  font-weight: regular;
+  font-size: 60px;
+}
+h2 {
+  font-family: Oxygen;
+  font-size: 50px
+}
+@media (min-width: 60px) {
+  h2 {
+   font-size: 40px 
+  }
+}
+h3 {
+  font-family: vollkorn;
+  font-size: 35px;
+}
+.name {
+  font-size: 100px;
+  margin: 50px;
+  color: pink;
+}
+.logo {
+  width: 625px;
+  height: 625px;
+  border: 11px solid black;
+}
+.aboutme2 {
+  font-style: italic;
+}
+.header {
+  text-align: center;
+}
+.dwstarbs
+{
+  height: 600px;
+  width: 580px;
+  border-radius: 10px;
+  text-align: center;
+}
+.handsmoke {
+  height: 600px;
+  width: 500px;
+  float: right;
+  border-radius: 10px;
+}
+.me {
+  height: 600px;
+  width: 600px;
+  border-radius: 10px;
+  float: left;
+}
+.underline {
+  text-decoration: underline;
+}
+.overlineunderline {
+  text-decoration: overline underline;
+}
+.overlineunderline:hover {
+  color: white;
+}
+.italic {
+  font-size: 75px;
+  font-style: italic;
+}
+.italic:hover {
+  color: white;
+}
+.red {
+  color: red;
+  text-shadow: 2px 2px 3px black;
+}
+.white {
+  color: white;
+  text-shadow: 2px 2px 3px black;
+}
+.container {
+  display: flex;
+  border: 6px solid white;
+  float: left;
+  background-color: black;
+  justify-content: space-around;
+}
+.sm {
+  width: 375px;
+  height: 220px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
